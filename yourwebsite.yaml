@@ -1,0 +1,26 @@
+---
+ipbinding: ["http/*:80:"] 
+isapirequired:	true 
+isapipath:  "$files\\F5XFFHttpModule.dll" 
+isapiname:  "F5XFFHttpModule" 
+profile_windowsfeature::features:  FS-Fileserver
+
+your_apppool: 'Sitename'
+your_website: 'Sitename'
+your_ipbinding: ["http/*:80:vtsadminqa.rnd.local"]
+your_user: 'APAdmin'
+your_basedir: 'D:\BaseDirectory\'
+your_websubdir: 'D:\BaseDirectory\Websites\Sitename'
+your_webdir: 'D:\BaseDirectoryWebsites\Sitename'
+your_logdir: 'D:\Logs\Sitename'
+your_siteid: 1
+apadmin_thumb: ""
+your_managedpipelinemode: 'Integrated'
+your_rapidfailprotection: 'false'
+your_managedruntimeversion: 'v4.0'
+application: 'Sitename'
+your_name: 'Sitename'
+yourapplicationdefaults_applicationpool: 'Sitename'
+your_appdirname: "Sitename"
+your_path: "Sitename/"
+your_sitename: Sitename
