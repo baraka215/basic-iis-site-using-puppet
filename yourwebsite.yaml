@@ -8,7 +8,7 @@ profile_windowsfeature::features:  FS-Fileserver
 your_apppool: 'Sitename'
 your_website: 'Sitename'
 your_ipbinding: ["http/*:80:vtsadminqa.rnd.local"]
-your_user: 'APAdmin'
+your_user: 'Sitename'
 your_basedir: 'D:\BaseDirectory\'
 your_websubdir: 'D:\BaseDirectory\Websites\Sitename'
 your_webdir: 'D:\BaseDirectoryWebsites\Sitename'
